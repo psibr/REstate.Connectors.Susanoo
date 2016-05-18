@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>REstate.Connectors.Susanoo</id>
+    <version>$version$</version>
+    <authors>Ovan Crone</authors>
+    <owners>Ovan Crone</owners>
+    <licenseUrl>https://github.com/psibr/REstate/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/psibr/REstate</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Action connector for Susanoo SQL code</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>REstate</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\REstate.Connectors.Susanoo.dll" target="lib\net461" />
+    <file src="bin\Release\REstate.Connectors.Susanoo.dll" target="lib\restate-plugin" />
+    <file src="bin\Release\Susanoo.Core.dll" target="lib\restate-plugin" />
+  </files>
+</package>
